@@ -56,3 +56,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # added scheduler gems
 gem 'resque'
 gem 'resque-scheduler'
+
+gem 'heroku'
