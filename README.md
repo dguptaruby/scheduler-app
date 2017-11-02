@@ -31,7 +31,7 @@ bundle install
 
 
 ```
- redis-server & bundle exec rails server & bundle exec rake schedule_it & bundle exec rake resque:scheduler & QUEUE=* rake resque:work &
+ redis-server & bundle exec rails server & bundle exec rake resque:scheduler & QUEUE=* rake resque:work &
 ```
 
 
