@@ -1,6 +1,6 @@
 require 'jobs/print_job'
 
-Resque.redis = 'localhost:6379'
+Resque.redis = ENV['REDISTOGO_URL']
 
 Resque::Scheduler.dynamic = true
 
