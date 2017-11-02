@@ -22,3 +22,17 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+* move to application directory and run following command.
+
+```
+bundle install
+```
+
+
+```
+ redis-server & bundle exec rails server & bundle exec rake schedule_it & bundle exec rake resque:scheduler & QUEUE=* rake resque:work &
+```
+
+
+-Nvigate to http://localhost:3000/resque/schedule
